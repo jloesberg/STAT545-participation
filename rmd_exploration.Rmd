@@ -1,0 +1,27 @@
+---
+title: "Tibble Exploration"
+output: 
+  html_document:
+    toc: true
+    number_sections: true
+    theme: cerulean
+---
+```{r load, warning = FALSE, echo = FALSE}
+library(gapminder)
+library(tibble)
+library(DT)
+```
+## Print out gapminder data:
+
+```{r}
+gapminder
+```
+
+Convert mtcars to tibble, and wrap in data table:
+
+```{r tibble}
+datatable(as_tibble(mtcars))
+```
+
+<!--this is a comment, it wont show up on html output-->
+
