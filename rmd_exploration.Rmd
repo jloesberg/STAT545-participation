@@ -25,3 +25,6 @@ datatable(as_tibble(mtcars))
 
 <!--this is a comment, it wont show up on html output-->
 
+<!--this is a comment using git-->
+
+
