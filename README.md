@@ -1,4 +1,4 @@
 # STAT545-participation
 
 
-d
+Participation repo for Stat545
