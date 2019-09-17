@@ -11,6 +11,7 @@ output:
 Begin by loading the required packages. If you don't have these installed (or don't know whether you have them installed), you can install them by executing the following code in your console:
 
 will only run this with the wave brakets around r after backticks
+this is a test
 ```
 install.packages("tidyverse")
 install.packages("scales")
