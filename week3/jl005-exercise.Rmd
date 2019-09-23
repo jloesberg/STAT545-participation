@@ -111,8 +111,12 @@ p
 You can store the output of the plot in a variable, too. Store the plot from 2(a) in the variable named `p`, then add a layer to `p` that adds green points to the plot.
 
 ```{r, fig.width = 5, fig.height = 2}
-p + 
-  geom_point(color = "green")
+p <- ggplot(mauna, aes(month, conc)) +
+  geom_line() +
+  xlab("Month") +
+  ylab("CO2 Concentration")
+p +
+  geom_point(colour = "green", alpha = 0.2)
 ```
 
 ### 2(d)
@@ -135,7 +139,7 @@ So you're a ggplot2 pro? Then, let's see this plot adapted to polar coordinates.
 The plot should look like a spiral, or concentric circles. 
 
 ```{r, fig.width = 5, fig.height = 2}
-FILL_THIS_IN
+ggplot(mauna, aes())
 ```
 
 
