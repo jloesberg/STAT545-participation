@@ -34,20 +34,25 @@ knitr::opts_chunk$set(error = TRUE, warning = FALSE)
 After fixing the error, fix the overlapping problem in the following plot (attribution: ["R for data science"](https://r4ds.had.co.nz/data-visualisation.html)).
 
 ```{r, fig.width = 5, fig.height = 2}
-ggplot(mpg, aes(cty, hwy)) %>% 
-  geom_point()
+ggplot(mpg, aes(cty, hwy)) +
+  geom_jitter(alpha = 0.5) + #changes scale for points (heavier pts = more)
+  geom_smooth(method = "lm")+ #adding trendline, its using the original aes from the first command
+  theme_bw() #changing grey background
+  
 ```
 
 
 ## Exercise 2: Line for each Country
 
 Fix this plot so that it shows life expectancy over time _for each country_. Notice that `ggplot2` ignores the grouping of a tibble!
+*it doesnt like it when you group by for dplyr, need to do it in ggplot*
 
 ```{r, fig.width = 5, fig.height = 2}
 gapminder %>% 
-  group_by(country) %>% 
-  ggplot(aes(year, lifeExp)) +
-  geom_line()
+  # group_by(country) %>% get rid of!!
+  ggplot(aes(year, lifeExp, group = country, color = country == "Rwanda")) + #just coloring one country
+  geom_line(alpha = 1/3) + #adding transparency
+  scale_color_discrete("", labels = c("Other", "Rwanda")) #getting rid of title of legend and chaning keys
 ```
 
 
@@ -61,7 +66,9 @@ gapminder %>%
 ```{r, fig.width = 5, fig.height = 2}
 ggplot(gapminder, aes(gdpPercap, lifeExp)) +
   geom_point(alpha = 0.2) +
-  scale_x_log10()
+  scale_x_log10(labels = scales::comma_format()) +#chaning names of x axis
+  facet_wrap(~ continent) #splits plot up into individual per each continent...shares axis...wow so cool! scales = "free" lets each panel have own axes...scales = "free_y" or x frees just one
+#
 ```
 
 ### 3(b) Bubble Plot
@@ -73,11 +80,13 @@ ggplot(gapminder, aes(gdpPercap, lifeExp)) +
 
 ```{r, fig.width = 5, fig.height = 2}
 gapminder %>% 
-  filter(continent != "Oceania") %>% 
-  ggplot(aes(gdpPercap, lifeExp)) +
-  facet_wrap(~ continent) +
-  geom_point(alpha = 0.2) +
-  scale_x_log10(labels = scales::comma_format())
+  filter(continent != "Oceania") %>% #get rid of oceania
+  ggplot(aes(gdpPercap, lifeExp, size = pop, color = continent)) + #can add size = pop
+  facet_wrap(~ continent, nrow = 1) + #can add nrow = 1, makes it skinnier
+  geom_point(alpha = 0.5, shape = 21) + #shapes = 21 makes them holow circles
+  scale_x_log10(labels = scales::comma_format()) +
+  scale_size_area()
+#what func to add options? ggplot or geom? if ggplot, applies to all
 ```
 
 A list of shapes can be found [at the bottom of the `scale_shape` documentation](https://ggplot2.tidyverse.org/reference/scale_shape.html).
