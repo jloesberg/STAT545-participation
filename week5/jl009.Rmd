@@ -120,9 +120,9 @@ email %>%
 
 ```{r}
 n <- 100
-FILL_THIS_IN(label = FILL_THIS_IN,
-             FILL_THIS_IN = rnorm(n),
-             FILL_THIS_IN)
+tibble(label = "Sample A",
+             x = rnorm(n),
+             y = x + rnorm(n))
 ```
 
 
@@ -148,6 +148,6 @@ experiment <- tibble(
   measurement_1 = runif(6),
   measurement_2 = runif(6)
 )
-experiment %>% expand(name, trt, rep)
+experiment %>% complete(nesting(name, trt), rep) #complete: fills in all possible combinations, nesting will tie name and trt together so that it doesnt fill in trt b/a for people who didn treceive it
 ```
 
