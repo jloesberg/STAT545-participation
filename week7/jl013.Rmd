@@ -35,10 +35,10 @@ Note, there will be very little coding in-class today, but I've given you plenty
 
 Write some notes here about what "effective visualizations" means to you. Think of elements of good graphics and plots that you have seen - what makes them good or bad? Write 3-5 points.
 
-1. 
-1. 
-1. 
-1. 
+1. uncrowded, easy to follow
+1. eye catching, not a lot of white space, but no offensive/garish colors
+1. axes make sense
+1. you're able to draw your own conlusions from the data
 1.
 
 ### CQ01: Weekly hours for full-time employees
@@ -46,34 +46,64 @@ Write some notes here about what "effective visualizations" means to you. Think 
 > Question: Evaluate the strength of the claim based on the data: "German workers are more motivated and work more hours than workers in other EU nations."
 >
 > Very strong, strong, weak, very week, do not know
-- <<Your answer here (and make sure to explain why you chose this answer)>>
+- Weak, its just showing how many hours they work, not the drivers behind it...just because they work more doesnt mean they're more motivated...also no measure of uncertainty, errors, sample size. Axes scales are too narrow (if they started it at zero, differences would be less obvious), gridlines and numbers together are too much 
 
 - Main takeaway: Summarize the main takeaway from this question/discussion here
+slightly biased to fit paper's argument
 
 ### CQ02: Average Global Temperature by year
 
 > Question: For the years this temperature data is displayed, is there an appreciable increase in temperature?
 > 
 > Yes, No, Do not know
-- <<Your answer here (and make sure to explain why you chose this answer)>>
+- X axis title??? y axis should not start at 0 (cant see any variation and obscures the increase - theres actually a 2 degree increase)
 
 - Main takeaway: Summarize the main takeaway from this question/discussion here
+- how you frame data has important implications for takeaways
 
 ### CQ03: Gun deaths in Florida
 
 > Question: Evaluate the strength of the claim based on the data: “Soon after this legislation was passed, gun deaths sharply declined."
 >
 > Very strong, strong, weak, very week, do not know
-- <<Your answer here (and make sure to explain why you chose this answer)>>
+- ery week, they flipped the axis!!!
 
 - Main takeaway: Summarize the main takeaway from this question/discussion here
+Dont be creative with axis/colors!
 
 ## Part 2: Extracting insight from visualizations  [20 mins]
 
 Great resource for selecting the right plot: https://www.data-to-viz.com/ ; encourage you all to consult it when choosing to visualize data.
 
 ### Case Study 1: Context matters
+```{r}
+library(plotly)
+library(tidyverse)
+library(gapminder)
+```
 
+```{r}
+p <- 
+  ggplot(gapminder, aes(x = gdpPercap, y = lifeExp,
+         color = continent)) +
+  geom_point()
+p
+
+#make interacitve
+p %>% 
+  ggplotly()
+
+#plotly syntax
+gapminder %>% 
+  plot_ly(x = ~gdpPercap,
+          y = ~lifeExp,
+          color = ~continent,
+          type = 'scatter',
+          mode = 'markers')
+```
+
+
+How to share plotly grpahs: make an account
 ### Case Study 2: A case for pie charts
 
 ## Part 3: Principles of effective visualizations [20 mins]
