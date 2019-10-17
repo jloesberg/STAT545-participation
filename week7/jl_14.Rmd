@@ -33,6 +33,7 @@ library(tidyverse)
 ggplot(mtcars, aes(wt, mpg)) +
   geom_point() +
   labs(x = "Weight (1000's of lbs)")
+# clear relationship
 ```
 
 Example: What can we say about rear axle ratio if we know something about quarter mile time?
@@ -42,6 +43,7 @@ ggplot(mtcars, aes(qsec, drat)) +
   geom_point() +
   labs(x = "Quarter mile time",
        y = "Rear axle ratio")
+#no clear relationship
 ```
 
 
@@ -89,17 +91,17 @@ Exercise:
 
 First, create a subset of the `gapminder` dataset containing only the country of `France
 ```{r}
-(gapminder_France <- FILL_THIS_IN
+(gapminder_France <- gapminder %>% filter(country == "France"))
 ```
 
 Now, using the `lm()` function we will create the linear model
 ```{r}
-(my_lm <- lm(FILL_THIS_IN))
+(my_lm <- lm(lifeExp ~ year, gapminder_France))
 ```
 Does that mean that the life expectency at "year 0" was equal to -397.7646?!
 We are interested in the modeling results around the modeling period which starts at year 1952. To get a meaniningful "interpretable" intercept we can use the `I()` function.
 ```{r}
-(my_lm <- lm(FILL_THIS_IN))
+(my_lm <- lm(lifeExp ~ I(year-1952), data = gapminder_France)) # I creates new varible on the fly
 ```
 
 Use the `unclass()` function to take a look at how the `lm()` object actually looks like.
