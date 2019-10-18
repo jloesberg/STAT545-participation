@@ -36,7 +36,7 @@ Upload rmd_exploration-slides.Rmd both as Rmd and [html](https://jloesberg.githu
 
 :heavy_check_mark: Complete [cm005-ggplot_intro.Rmd](https://github.com/jloesberg/STAT545-participation/blob/master/week3/jl005-exercise.Rmd) worksheet. 
 
-:heavy_check_mark: Submit .Rmd file along with knitted version of your choice (pdf, md or [html](https://jloesberg.github.io/STAT545-participation/week3/jl005-exercise.html format))
+:heavy_check_mark: Submit .Rmd file along with knitted version of your choice (pdf, md or [html](https://jloesberg.github.io/STAT545-participation/week3/jl005-exercise.html) format)
 
 ## 6. __Class Meeting 6__ Intro to data wrangling, Part I
 
@@ -48,7 +48,7 @@ Upload rmd_exploration-slides.Rmd both as Rmd and [html](https://jloesberg.githu
 
 :heavy_check_mark: Complete cm007-exercise.Rmd worksheet.
 
-:heavy_check_mark: Submit [.Rmd](https://github.com/jloesberg/STAT545-participation/blob/master/week4/jl007_exercises.Rmd) file along with knitted version of your choice (pdf, md or [html](https://jloesberg.github.io/STAT545-participation/week4/jl007_exercises.html ) format)
+:heavy_check_mark: Submit [.Rmd](https://github.com/jloesberg/STAT545-participation/blob/master/week4/jl007_exercises.Rmd) file along with knitted version of your choice (pdf, md or [html](https://jloesberg.github.io/STAT545-participation/week4/jl007_exercises.html) format)
 
 ## 8. __Class Meeting 8__ Intro to plotting with ggplot2, Part II
 
@@ -56,13 +56,29 @@ Upload rmd_exploration-slides.Rmd both as Rmd and [html](https://jloesberg.githu
 
 :heavy_check_mark: Submit [.Rmd](https://github.com/jloesberg/STAT545-participation/blob/master/week4/jl_008.Rmd) file along with knitted version of your choice (pdf, md or [html](https://jloesberg.github.io/STAT545-participation/week4/jl_008.html) format)
 
-9. Class Meeting 9 Tidy Data and Pivoting
+## 9. __Class Meeting 9__ Tidy Data and Pivoting
 
-10. Class Meeting 10 Tibble Joins
+:heavy_check_mark: Complete cm009-exercise.Rmd worksheet. 
 
-11. Class Meeting 11 File input/output (I/O)
+:heavy_check_mark: Submit [.Rmd file](https://github.com/jloesberg/STAT545-participation/blob/master/week5/jl009.Rmd) along with knitted version of your choice (pdf, md or [html](https://jloesberg.github.io/STAT545-participation/week5/jl009.nb.html) format)
 
-12. Class Meeting 12 Working with factors in R
+## 10. __Class Meeting 10__ Tibble Joins
+
+:heavy_check_mark: Complete cm010-exercise.Rmd worksheet
+
+:heavy_check_mark: Submit [.Rmd file](https://github.com/jloesberg/STAT545-participation/blob/master/week5/jl010.Rmd) along with knitted version of your choice (pdf, md or [html](https://jloesberg.github.io/STAT545-participation/week5/jl010.html) format)
+
+## 11. __Class Meeting 11__ File input/output (I/O)
+
+Complete the steps described in lesson 11.
+
+Submit .R script with your work
+
+## 12. __Class Meeting 12__ Working with factors in R
+
+Complete cm012-exercise.Rmd worksheet.
+
+Submit .Rmd file along with knitted version of your choice (pdf, md or html format)
 
 13. Class Meeting 13 Effective Visualizations
 
