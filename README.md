@@ -7,8 +7,7 @@ Here are the html links for each assignment:
 
 ## 1. __Class Meeting 1__ Introduction to STAT 545 and GitHub
 
-:heavy_check_mark: Create and populate [navigating_github.md](https://github.com/jloesberg/STAT545-
-participation/blob/master/weeks1_2/navigating_github.md) with serveral links
+:heavy_check_mark: Create and populate [navigating_github.md](https://github.com/jloesberg/STAT545-participation/blob/master/weeks1_2/navigating_github.md) with serveral links
 
 :heavy_check_mark: Share user name
 
@@ -22,7 +21,7 @@ participation/blob/master/weeks1_2/navigating_github.md) with serveral links
 
 :heavy_check_mark: Populate [navigating_github.md](https://jloesberg.github.io/STAT545-participation/weeks1_2/navigating_github.html) document with some markdown features
 
-:heavy_check_mark: Convert the .md file into both pdf and [html]((https://jloesberg.github.io/STAT545-participation/weeks1_2/navigating_github.md) and add them to your repo
+:heavy_check_mark: Convert the .md file into both pdf and [html](https://jloesberg.github.io/STAT545-participation/weeks1_2/navigating_github.md) and add them to your repo
    _Note: in class Vincenzo said we didnt need to submit a pdf if it didnt work!_
    
 Upload [rmd_exploration.Rmd](https://github.com/jloesberg/STAT545-participation/blob/master/weeks1_2/rmd_exploration.Rmd) and its output formats ([md](, pdf and html)
@@ -39,11 +38,23 @@ Upload rmd_exploration-slides.Rmd both as Rmd and [html](https://jloesberg.githu
 
 :heavy_check_mark: Submit .Rmd file along with knitted version of your choice (pdf, md or [html](https://jloesberg.github.io/STAT545-participation/week3/jl005-exercise.html format))
 
-6. [Class Meeting 6 Intro to data wrangling, Part I](https://jloesberg.github.io/STAT545-participation/week3/jl006-exercise.nb.html)
+## 6. __Class Meeting 6__ Intro to data wrangling, Part I
 
-7. Class Meeting 7 Intro to data wrangling, Part II
+:heavy_check_mark: Complete cm006-dplyr_exercise.Rmd worksheet.
 
-8. Class Meeting 8 Intro to plotting with ggplot2, Part II
+:heavy_check_mark: Submit [.Rmd](https://github.com/jloesberg/STAT545-participation/blob/master/week3/jl006-exercise.Rmd) file along with knitted version of your choice (pdf, md or [html](https://jloesberg.github.io/STAT545-participation/week3/jl006-exercise.nb.html) format)
+
+## 7. __Class Meeting 7__ Intro to data wrangling, Part II
+
+:heavy_check_mark: Complete cm007-exercise.Rmd worksheet.
+
+:heavy_check_mark: Submit [.Rmd](https://github.com/jloesberg/STAT545-participation/blob/master/week4/jl007_exercises.Rmd) file along with knitted version of your choice (pdf, md or [html](https://jloesberg.github.io/STAT545-participation/week4/jl007_exercises.html ) format)
+
+## 8. __Class Meeting 8__ Intro to plotting with ggplot2, Part II
+
+:heavy_check_mark: Complete cm008-exercise.Rmd worksheet.
+
+:heavy_check_mark: Submit [.Rmd](https://github.com/jloesberg/STAT545-participation/blob/master/week4/jl_008.Rmd) file along with knitted version of your choice (pdf, md or [html](https://jloesberg.github.io/STAT545-participation/week4/jl_008.html) format)
 
 9. Class Meeting 9 Tidy Data and Pivoting
 
