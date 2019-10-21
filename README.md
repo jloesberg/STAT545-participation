@@ -1,9 +1,8 @@
 # STAT545-participation
 
-
 Stat545 participation repo for Jenna Loesberg
 
-Here are the html links for each assignment:
+Please find submissions for each class below. Submissions are either links to the file location on github or a URL created with a html a
 
 ## 1. __Class Meeting 1__ Introduction to STAT 545 and GitHub
 
@@ -22,7 +21,7 @@ Here are the html links for each assignment:
 :heavy_check_mark: Populate [navigating_github.md](https://jloesberg.github.io/STAT545-participation/weeks1_2/navigating_github.html) document with some markdown features
 
 :heavy_check_mark: Convert the .md file into both pdf and [html](https://jloesberg.github.io/STAT545-participation/weeks1_2/navigating_github.md) and add them to your repo
-   _Note: in class Vincenzo said we didnt need to submit a pdf if it didnt work! I couldn't save anything as a PDF _
+   _Note: in class Vincenzo said we didn't need to submit a pdf if it didn't work! I couldn't save anything as a PDF _
    
 :heavy_check_mark: Upload [rmd_exploration.Rmd](https://github.com/jloesberg/STAT545-participation/blob/master/weeks1_2/rmd_exploration.Rmd) and its output formats (md, pdf or [html](https://jloesberg.github.io/STAT545-participation/weeks1_2/rmd_exploration.html) )
 
@@ -72,7 +71,7 @@ Here are the html links for each assignment:
 
 Complete the steps described in lesson 11.
 
-Submit .R script with your work
+Submit [.R script with your work](https://github.com/jloesberg/STAT545-participation/blob/master/week5/jl_011.R)
 
 ## 12. __Class Meeting 12__ Working with factors in R
 
@@ -83,11 +82,13 @@ Submit .R script with your work
 ## 13. __Class Meeting 13__ Effective Visualizations
 
 :heavy_check_mark: Complete cm013-exercise.Rmd worksheet. 
+
 :heavy_check_mark: Submit [.Rmd](https://github.com/jloesberg/STAT545-participation/blob/master/week7/jl013.Rmd) file along with knitted version of your choice (pdf, md or [html format)](https://jloesberg.github.io/STAT545-participation/week7/jl013.html)
 
-14. Class Meeting 14 The Model-Fitting Paradigm in R
+## 14. __Class Meeting 14__ The Model-Fitting Paradigm in R
 
 :heavy_check_mark: Complete cm014-exercise.Rmd worksheet. 
+
 :heavy_check_mark: Submit [.Rmd file](https://github.com/jloesberg/STAT545-participation/blob/master/week7/jl_14.Rmd) along with knitted version of your choice (pdf, md or [html format)](https://jloesberg.github.io/STAT545-participation/week7/jl_14.nb.html)
 
 
