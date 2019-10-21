@@ -2,7 +2,7 @@
 
 Stat545 participation repo for Jenna Loesberg
 
-Please find submissions for each class below. Submissions are either links to the file location on github or a URL created with a html a
+Please find submissions for each class below. Submissions are either links to the file location on Github or a URL created with a html file.
 
 ## 1. __Class Meeting 1__ Introduction to STAT 545 and GitHub
 
