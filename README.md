@@ -21,6 +21,7 @@ Please find submissions for each class below. Submissions are either links to th
 :heavy_check_mark: Populate [navigating_github.md](https://jloesberg.github.io/STAT545-participation/weeks1_2/navigating_github.html) document with some markdown features
 
 :heavy_check_mark: Convert the .md file into both pdf and [html](https://jloesberg.github.io/STAT545-participation/weeks1_2/navigating_github.md) and add them to your repo
+
    _Note: in class Vincenzo said we didn't need to submit a pdf if it didn't work! I couldn't save anything as a PDF _
    
 :heavy_check_mark: Upload [rmd_exploration.Rmd](https://github.com/jloesberg/STAT545-participation/blob/master/weeks1_2/rmd_exploration.Rmd) and its output formats (md, pdf or [html](https://jloesberg.github.io/STAT545-participation/weeks1_2/rmd_exploration.html) )
