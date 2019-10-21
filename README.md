@@ -69,9 +69,9 @@ Please find submissions for each class below. Submissions are either links to th
 
 ## 11. __Class Meeting 11__ File input/output (I/O)
 
-Complete the steps described in lesson 11.
+:heavy_check_mark: Complete the steps described in lesson 11.
 
-Submit [.R script with your work](https://github.com/jloesberg/STAT545-participation/blob/master/week5/jl_011.R)
+:heavy_check_mark: Submit [.R script with your work](https://github.com/jloesberg/STAT545-participation/blob/master/week5/jl_011.R)
 
 ## 12. __Class Meeting 12__ Working with factors in R
 
