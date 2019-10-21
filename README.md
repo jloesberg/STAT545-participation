@@ -76,14 +76,19 @@ Submit .R script with your work
 
 ## 12. __Class Meeting 12__ Working with factors in R
 
-Complete cm012-exercise.Rmd worksheet.
+:heavy_check_mark: Complete cm012-exercise.Rmd worksheet.
 
-Submit .Rmd file along with knitted version of your choice (pdf, md or html format)
+:heavy_check_mark: Submit [.Rmd](https://github.com/jloesberg/STAT545-participation/blob/master/week6/jl012.Rmd) file along with knitted version of your choice (pdf, md or [html format](https://jloesberg.github.io/STAT545-participation/week6/jl012.html))
 
-13. Class Meeting 13 Effective Visualizations
+## 13. __Class Meeting 13__ Effective Visualizations
+
+:heavy_check_mark: Complete cm013-exercise.Rmd worksheet. 
+:heavy_check_mark: Submit [.Rmd](https://github.com/jloesberg/STAT545-participation/blob/master/week7/jl013.Rmd) file along with knitted version of your choice (pdf, md or [html format)](https://jloesberg.github.io/STAT545-participation/week7/jl013.html)
 
 14. Class Meeting 14 The Model-Fitting Paradigm in R
 
+:heavy_check_mark: Complete cm014-exercise.Rmd worksheet. 
+:heavy_check_mark: Submit [.Rmd file](https://github.com/jloesberg/STAT545-participation/blob/master/week7/jl_14.Rmd) along with knitted version of your choice (pdf, md or [html format)](https://jloesberg.github.io/STAT545-participation/week7/jl_14.nb.html)
 
 
 
