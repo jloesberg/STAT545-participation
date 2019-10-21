@@ -22,11 +22,11 @@ Here are the html links for each assignment:
 :heavy_check_mark: Populate [navigating_github.md](https://jloesberg.github.io/STAT545-participation/weeks1_2/navigating_github.html) document with some markdown features
 
 :heavy_check_mark: Convert the .md file into both pdf and [html](https://jloesberg.github.io/STAT545-participation/weeks1_2/navigating_github.md) and add them to your repo
-   _Note: in class Vincenzo said we didnt need to submit a pdf if it didnt work!_
+   _Note: in class Vincenzo said we didnt need to submit a pdf if it didnt work! I couldn't save anything as a PDF _
    
-Upload [rmd_exploration.Rmd](https://github.com/jloesberg/STAT545-participation/blob/master/weeks1_2/rmd_exploration.Rmd) and its output formats ([md](, pdf and html)
+:heavy_check_mark: Upload [rmd_exploration.Rmd](https://github.com/jloesberg/STAT545-participation/blob/master/weeks1_2/rmd_exploration.Rmd) and its output formats (md, pdf or [html](https://jloesberg.github.io/STAT545-participation/weeks1_2/rmd_exploration.html) )
 
-Upload rmd_exploration-slides.Rmd both as Rmd and [html](https://jloesberg.github.io/STAT545-participation/weeks1_2/rmd_exploration_slides.html)(or pdf) formats
+:heavy_check_mark: Upload rmd_exploration-slides.Rmd both as [Rmd](https://github.com/jloesberg/STAT545-participation/blob/master/weeks1_2/rmd_exploration_slides.Rmd) and [html](https://jloesberg.github.io/STAT545-participation/weeks1_2/rmd_exploration_slides.html)(or pdf) formats
 
 ## 4. __Class Meeting 4__ The version control workflow
 
