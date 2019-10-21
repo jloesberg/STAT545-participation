@@ -1,0 +1,30 @@
+---
+title: "rmd_exploration_slides"
+author: "Jenna Loesberg"
+date: "10/18/2019"
+output: ioslides_presentation
+---
+
+```{r load, warning = FALSE, echo = FALSE}
+library(gapminder)
+library(tibble)
+library(DT)
+```
+## Print out gapminder data:
+
+```{r}
+gapminder
+```
+
+Convert mtcars to tibble, and wrap in data table:
+
+```{r tibble}
+datatable(as_tibble(mtcars))
+```
+
+<!--this is a comment, it wont show up on html output-->
+
+<!--this is a comment using git-->
+
+
+
